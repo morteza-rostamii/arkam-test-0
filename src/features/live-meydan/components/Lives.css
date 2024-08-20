@@ -1,0 +1,46 @@
+
+.lives .swiper-container {
+  overflow: visible !important;
+  z-index: 999999;
+  
+}
+
+.lives .swiper-wrapper {
+  display: flex;
+}
+
+.lives .swiper-slide {
+  flex-shrink: 0; /* Prevent shrinking of slides */
+  width: auto !important;
+}
+
+.lives .swiper {
+  z-index: 999999;
+  overflow: visible;
+}
+
+.lives .swiper:hover {
+  overflow: visible;
+}
+
+.lives .swiper-slide {
+  transition: transform 0.3s ease, width 0.3s ease;
+  z-index: 1;
+}
+
+.lives .swiper-slide:hover {
+  z-index: 10; 
+  overflow: visible;
+}
+
+.lives .swiper-slide {
+  /* Space between slides */
+  /* margin: 0 10px;  */
+  transition: transform 0.3s ease, margin 0.3s ease;
+}
+
+.lives .swiper-slide:hover {
+  transform: scale(1.2); /* Increase size on hover */
+  margin: 0 30px; /* Increase margin to push neighboring slides */
+  z-index: 10; /* Bring the hovered slide to the front */
+}

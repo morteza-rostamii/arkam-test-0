@@ -1,0 +1,11 @@
+
+.mostanad_card {
+  flex: 0 1 200px;
+  transition: flex-grow 0.3s ease, width 0.3s ease;
+}
+
+.mostanad_card:hover {
+  flex-grow: 2;
+  flex-basis: 400px;
+  display: none;
+}
